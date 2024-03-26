@@ -1,5 +1,6 @@
 let name = "Avdhesh"
 let age = 19
+let rank = 5316531351653168412486n//bigInt
 let IsValid = true
 let empty
 let state = null

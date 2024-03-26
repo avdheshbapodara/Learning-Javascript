@@ -10,7 +10,7 @@ console.log(typeof value);
 "33abc"==>NaN(Not a Number)
 true==>1
 */
-console.log("1"+2);
-console.log(1+"2");
-console.log("1"+2+2);
-console.log(1+2+"2");
+console.log("1" + 2);
+console.log(1 + "2");
+console.log("1" + 2 + 2);
+console.log(1 + 2 + "2");
