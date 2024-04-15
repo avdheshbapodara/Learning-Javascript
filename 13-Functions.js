@@ -26,22 +26,32 @@ function LoginSecondUserMessage(User = "Sam") {//this is used to remove the case
 // console.log(LoginSecondUserMessage("Avdhesh"));//if any value is given then it will overwrite it
 // console.log(LoginSecondUserMessage());//otherwise it will print sam
 
-function CartPrice(value1, value2, ...num1) {//Here ... is rest operator for remaining values 
+function CartPrice(value1, value2, ...num1) { //Here ... is rest operator for remaining values 
     return num1;
 }
 
 // console.log(CartPrice(200, 300, 400, 500, 600));//so value1 and value2 == 200 & 300 
 
-const User = {
-    username: "Avdhesh",
-    Price: 199
+// const User = {
+//     username: "Avdhesh",
+//     Price: 199
+// }
+
+// function HandleObject(ObjectName) {
+//     console.log(`Username is ${ObjectName.username} and Price is ${ObjectName.Price}`);
+// }
+
+// HandleObject({
+//     username:"Avdhesh",
+//     price:1499
+// })//Can also print by this way
+
+const MyArray=[100,220,500,700];
+
+function ArraySecondValue(AnyArray){
+    return AnyArray[1]
 }
 
-function HandleObject(ObjectName) {
-    console.log(`Username is ${ObjectName.username} and Price is ${ObjectName.Price}`);
-}
+// console.log(ArraySecondValue(MyArray));//similar to the Object
+console.log(ArraySecondValue([123,456,789,1011]));
 
-HandleObject(User);
-function yellow(){
-    console.log(object);
-}
