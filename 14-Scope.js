@@ -32,9 +32,9 @@
 
 
 
-console.log(addOne(5));//by this type of declaration it can be accesed above
+console.log(addOne(5));
 
-function addOne(num){
+function addOne(num){//Just Declaration 
     return num+1;
 }
 
@@ -42,7 +42,7 @@ function addOne(num){
 // console.log(addTwo(5));//Error 404! not found :)
 //we can acces it after declaration 
 
-const addTwo=function(num){
+const addTwo=function(num){//declaration+Hold it in 
     return num+2;
 }
 
