@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Watch Console</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+</body>
+<script>
+
+    const writer = function () {
+        console.log("Avdhesh");
+    }
+    let repeat = false
+    let printing
+    document.querySelector('#start').addEventListener('click', function () {
+        if (repeat === false) {
+            printing = setInterval(writer, 1000)
+            repeat = true
+        }
+    })
+
+    document.querySelector('#stop').addEventListener('click', function () {
+        clearInterval(printing)
+        repeat = false
+    })
+
+</script>
+
+</html>
